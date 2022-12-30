@@ -1,0 +1,29 @@
+{
+  "data": {
+    "coordinates": "",
+    "timestamp": "1672395021",
+    "gw_mac": "AA:BB:CC:DD:EE:FF",
+    "tags": {
+      "AA:AA:AA:AA:AF:EF": {
+        "rssi": -59,
+        "timestamp": "1672395020",
+        "data": "0201061BFF99040505765FB4C18AFD240278FF04487656D881AAAAAAAAAFEF"
+      },
+      "A0:72:36:AD:41:FE": {
+        "rssi": -53,
+        "timestamp": "1672395021",
+        "data": "1AFF4C000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000000"
+      },
+      "69:D9:F9:C9:E9:49": {
+        "rssi": -56,
+        "timestamp": "1672395021",
+        "data": "02010616FF2D01000001010202B00000000003CB000000000000"
+      },
+      "BB:BB:BB:BB:CA:08": {
+        "rssi": -65,
+        "timestamp": "1672395021",
+        "data": "0201061BFF9904050F4845C0C0EC03200284FFBC9976876268BBBBBBBBCA08"
+      }
+    }
+  }
+}
