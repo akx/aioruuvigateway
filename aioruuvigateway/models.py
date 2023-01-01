@@ -14,7 +14,7 @@ class TimestampConversionMixin:
         return datetime.datetime.utcfromtimestamp(self.timestamp)
 
 
-@dataclasses.dataclass(kw_only=True)
+@dataclasses.dataclass()
 class TagData(TimestampConversionMixin):
     mac: str  # AA:BB:CC:DD:EE:FF
     rssi: int
@@ -34,7 +34,7 @@ class TagData(TimestampConversionMixin):
         )
 
 
-@dataclasses.dataclass(kw_only=True)
+@dataclasses.dataclass()
 class HistoryResponse(TimestampConversionMixin):
     timestamp: int
     gw_mac: str
