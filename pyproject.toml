@@ -30,9 +30,9 @@ dependencies = [
 dynamic = ["version"]
 
 [project.urls]
-Documentation = "https://github.com/unknown/aioruuvigateway#readme"
-Issues = "https://github.com/unknown/aioruuvigateway/issues"
-Source = "https://github.com/unknown/aioruuvigateway"
+Documentation = "https://github.com/akx/aioruuvigateway#readme"
+Issues = "https://github.com/akx/aioruuvigateway/issues"
+Source = "https://github.com/akx/aioruuvigateway"
 
 [tool.hatch.version]
 path = "aioruuvigateway/__about__.py"
