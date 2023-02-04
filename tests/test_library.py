@@ -27,13 +27,14 @@ async def test_library(httpx_mock):
     manufacturers = Counter()
     for tag in history.tags:
         assert tag.datetime.year == 2022
+        assert tag.age_seconds in {0, 1, 19}
         ann = tag.parse_announcement()
-        print(ann)
+        print(tag, ann)
         manufacturers.update(ann.manufacturer_data.keys())
     assert manufacturers == {
         0x0499: 2,  # Two Ruuvitags
         0x012D: 1,  # One Sony
-        0x004C: 1,  # One Apple
+        0x004C: 2,  # Two Apples
     }
 
 
