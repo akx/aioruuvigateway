@@ -66,3 +66,22 @@ exclude_lines = [
   "if TYPE_CHECKING:",
   "raise NotImplementedError",
 ]
+
+[tool.ruff]
+target-version = "py37"
+ignore = ["SIM105"]
+line-length = 88
+select = [
+    "C9",
+    "E",
+    "F",
+    "SIM",
+    "TID",
+    "W",
+]
+
+[tool.ruff.mccabe]
+max-complexity = 10
+
+[tool.ruff.flake8-tidy-imports]
+ban-relative-imports = "all"
